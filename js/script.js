@@ -15,7 +15,7 @@ console.log(listaSpesa);
 
 //creaiamo un ciclo while per la lista
 
-while (i < listaSpesa.length){
+while (lista < listaSpesa.length){
     lista = listaSpesa;
     //da qui dovrebbe inserire document. per farlo stampare nel html.
     document.getElementById('output').innerHTML += (lista);
