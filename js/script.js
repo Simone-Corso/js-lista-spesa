@@ -15,10 +15,13 @@ console.log(listaSpesa);
 
 //creaiamo un ciclo while per la lista
 
-while (i < listaSpesa.length){
+while (i < listaSpesa.length + i++){
     lista = listaSpesa[i];
     //da qui dovrebbe inserire document. per farlo stampare nel html.
-    document.getElementById('spesacompleta').innerHTML('la lista di Ginetta');
+    document.getElementById(listaSpesa).innerHTML += (output);
+
+    // creo la console.log per vedere la la lista della spesa.
+    console.log(listaSpesa[i]);
 
 
 }
