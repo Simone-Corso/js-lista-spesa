@@ -17,4 +17,8 @@ console.log(listaSpesa);
 
 while (i < listaSpesa.length){
     lista = listaSpesa[i];
+    //da qui dovrebbe inserire document. per farlo stampare nel html.
+    document.getElementById('spesacompleta').innerHTML('la lista di Ginetta');
+
+
 }
