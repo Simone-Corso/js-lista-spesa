@@ -5,3 +5,8 @@
 
 const listaSpesa = ['sugo','carcioffi','sale','melenzane','cocola'];
 
+let i = 0;
+
+//metto console per verificare se mostra la lista
+
+console.log(listaSpesa);
