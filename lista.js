@@ -10,3 +10,11 @@ let i = 0;
 //metto console per verificare se mostra la lista
 
 console.log(listaSpesa);
+
+//nella console ha mostrato la lista con .length di 5.
+
+//creaiamo un ciclo while per la lista
+
+while (i < listaSpesa.length){
+    lista = listaSpesa[i];
+}
