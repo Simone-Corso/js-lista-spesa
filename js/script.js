@@ -5,7 +5,7 @@
 
 const listaSpesa = ['sugo','carcioffi','sale','melenzane','cocola'];
 
-let i = 0;
+let lista = 0;
 
 //metto console per verificare se mostra la lista
 
@@ -15,13 +15,11 @@ console.log(listaSpesa);
 
 //creaiamo un ciclo while per la lista
 
-while (i < listaSpesa.length + i++){
-    lista = listaSpesa[i];
+while (i < listaSpesa.length){
+    lista = listaSpesa;
     //da qui dovrebbe inserire document. per farlo stampare nel html.
-    document.getElementById(listaSpesa).innerHTML += (output);
-
+    document.getElementById('output').innerHTML += (lista);
     // creo la console.log per vedere la la lista della spesa.
-    console.log(listaSpesa[i]);
-
+  
 
 }
